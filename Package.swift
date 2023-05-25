@@ -21,8 +21,8 @@ let package = Package(
 				path: "Sources"),
 		.binaryTarget(
 			name: "GXCoreUI",
-			url: "https://pkgs.genexus.dev/iOS/beta/GXCoreUI-1.0.0-beta+20230525135158.xcframework.zip",
-			checksum: "43c22b5bad40b53e1534207f21746b4a134f34e94f86daf00760f24444b957a2"
+			url: "https://pkgs.genexus.dev/iOS/beta/GXCoreUI-1.0.0-beta+20230525143554.xcframework.zip",
+			checksum: "61bdc98fc960959eb221a21d23d35c2a33f426c84c3c2e648e6149871012622a"
 		)
 	]
 )
