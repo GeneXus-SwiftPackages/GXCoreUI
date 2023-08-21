@@ -10,19 +10,19 @@ let package = Package(
 			targets: ["GXCoreUIWrapper"])
 	],
 	dependencies: [
-		.package(url: "https://github.com/GeneXus-SwiftPackages/GXCoreBL.git", exact: "1.1.0")
+		.package(url: "https://github.com/GeneXus-SwiftPackages/GXCoreBL.git", exact: "1.1.2")
 	],
 	targets: [
 		.target(name: "GXCoreUIWrapper",
 				dependencies: [
 					"GXCoreUI",
-					.product(name: "GXCoreBL", package: "GXCoreBL", condition: .when(platforms: [.iOS, .tvOS, .watchOS]))
+					.product(name: "GXCoreBL", package: "GXCoreBL", condition: .when(platforms: [.tvOS, .watchOS, .iOS]))
 				],
 				path: "Sources"),
 		.binaryTarget(
 			name: "GXCoreUI",
-			url: "https://pkgs.genexus.dev/iOS/releases/GXCoreUI-1.1.0.xcframework.zip",
-			checksum: "3bef10ff01b8a1af978a9f87505f9b06ede005f1bbd0aabf3a5bc969d702793e"
+			url: "https://pkgs.genexus.dev/iOS/releases/GXCoreUI-1.1.2.xcframework.zip",
+			checksum: "3d584af9bda5b387c0bc853bbd2f430593b6b5f2ef4bcedbe4674a5d5cbdac35"
 		)
 	]
 )
