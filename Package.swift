@@ -1,4 +1,4 @@
-// swift-tools-version: 5.7
+// swift-tools-version: 5.9
 import PackageDescription
 
 let package = Package(
@@ -10,7 +10,7 @@ let package = Package(
 			targets: ["GXCoreUIWrapper"])
 	],
 	dependencies: [
-		.package(url: "https://github.com/GeneXus-SwiftPackages/GXCoreBL.git", exact: "1.6.0-beta.2")
+		.package(url: "https://github.com/GeneXus-SwiftPackages/GXCoreBL.git", exact: "1.6.0-beta.3")
 	],
 	targets: [
 		.target(name: "GXCoreUIWrapper",
@@ -21,8 +21,8 @@ let package = Package(
 				path: "Sources"),
 		.binaryTarget(
 			name: "GXCoreUI",
-			url: "https://pkgs.genexus.dev/iOS/beta/GXCoreUI-1.6.0-beta.2.xcframework.zip",
-			checksum: "0f36397ffe8e6d79845e0c966409ea0733fa1dfe35ff53d027d96d3d7b51b59e"
+			url: "https://pkgs.genexus.dev/iOS/beta/GXCoreUI-1.6.0-beta.3.xcframework.zip",
+			checksum: "6fc7be400b859d0c4413a5ff31065dcdb1850265a893bf75fca78c36684819cd"
 		)
 	]
 )
