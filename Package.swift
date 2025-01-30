@@ -3,14 +3,14 @@ import PackageDescription
 
 let package = Package(
 	name: "GXCoreUI",
-	platforms: [.iOS("13.0"), .watchOS("9.0"), .tvOS("13.0"), .visionOS("1.0")],
+	platforms: [.iOS("15.0"), .watchOS("10.0"), .tvOS("18.0"), .visionOS("2.0")],
 	products: [
 		.library(
 			name: "GXCoreUI",
 			targets: ["GXCoreUIWrapper"])
 	],
 	dependencies: [
-		.package(url: "https://github.com/GeneXus-SwiftPackages/GXCoreBL.git", exact: "3.0.0-rc.8")
+		.package(url: "https://github.com/GeneXus-SwiftPackages/GXCoreBL.git", exact: "3.0.0-rc.15")
 	],
 	targets: [
 		.target(name: "GXCoreUIWrapper",
@@ -21,8 +21,8 @@ let package = Package(
 				path: "Sources"),
 		.binaryTarget(
 			name: "GXCoreUI",
-			url: "https://pkgs.genexus.dev/iOS/preview/GXCoreUI-3.0.0-rc.8.xcframework.zip",
-			checksum: "dc1ec8252290924765f0c3db5cb00f1c38311ffa3ce2b6f5c3ecad11020a15fa"
+			url: "https://pkgs.genexus.dev/iOS/preview/GXCoreUI-3.0.0-rc.15.xcframework.zip",
+			checksum: "7e788818c1f87fc1bcdb158d34d66e008532f0a089d658a17ba124a42f887a9b"
 		)
 	]
 )
