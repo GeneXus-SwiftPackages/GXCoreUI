@@ -10,7 +10,7 @@ let package = Package(
 			targets: ["GXCoreUIWrapper"])
 	],
 	dependencies: [
-		.package(url: "https://github.com/GeneXus-SwiftPackages/GXCoreBL.git", exact: "3.2.0-beta.12")
+		.package(url: "https://github.com/GeneXus-SwiftPackages/GXCoreBL.git", exact: "3.2.0-beta.13")
 	],
 	targets: [
 		.target(name: "GXCoreUIWrapper",
@@ -21,8 +21,8 @@ let package = Package(
 				path: "Sources"),
 		.binaryTarget(
 			name: "GXCoreUI",
-			url: "https://pkgs.genexus.dev/iOS/beta/GXCoreUI-3.2.0-beta.12.xcframework.zip",
-			checksum: "70145aed9b3e09b0aac274511806237495721c35f376c6936cf795a38ad0a471"
+			url: "https://pkgs.genexus.dev/iOS/beta/GXCoreUI-3.2.0-beta.13.xcframework.zip",
+			checksum: "cf212ddb174f1606cba4a82d23a3c062a72634a59e441c82647f166f446b2f6c"
 		)
 	]
 )
